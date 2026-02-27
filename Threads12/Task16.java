@@ -6,7 +6,7 @@ public class Task16 {
 
     public static void main(String[] args) {
 
-        ThreadPoolExecutor executor =
+        ThreadPoolExecutor executor = 
                 new ThreadPoolExecutor(
                         2,
                         4,
@@ -14,6 +14,7 @@ public class Task16 {
                         TimeUnit.SECONDS,
                         new ArrayBlockingQueue<>(5)
                 );
+            
 
         try {
 
